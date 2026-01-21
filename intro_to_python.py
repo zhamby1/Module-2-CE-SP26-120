@@ -37,8 +37,8 @@ print("Hello")
 #an input function must have a variable to return the data into that the user gives
 
 #example
-# my_name = input("Give me your name ")
-# print(my_name)
+my_name = input("Give me your name ")
+print(my_name)
 
 #the issue with inputs is that they come in as strings
 #If we need a calculable value, we have to convert the input data into a numerical type (parsing)
@@ -50,10 +50,10 @@ print("Hello")
 #examples
 
 #add two numbers together from input...these are whole numbers
-# first_number = int(input("Please give me your first number "))
-# second_number = int(input("Please give me your second number "))
-# mysum = first_number + second_number
-# print(mysum)
+first_number = int(input("Please give me your first number "))
+second_number = int(input("Please give me your second number "))
+mysum = first_number + second_number
+print(mysum)
 
 #floats work the same way but can convert decimals
 #take two items using money and giving it a total
